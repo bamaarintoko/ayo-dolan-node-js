@@ -63,18 +63,19 @@ io.on('connection', (client) => {
         // id.friendId.map((v,k)=>{
             isOnline[id.myId] = client;
             // isOnline[id.myId].emit('online_user','a')
-            // console.log(id.myId+"--->",isOnline)
+            console.log(id.myId+"---> online")
         // })
         // isOnline[id.myId] = client
         // console.log("lllllllllllllll",isOnline)
         // console.log('user-->',id,' is online')
         client.on('online_user',(id_)=> {
+            console.log("haloooo")
             // if (isOnline[id_.friendId]) {
             //     isOnline[id_.friendId].emit('online_user','a')
             // }
             //     console.log(id_.friendId)
             id_.friendId.map((v,k)=>{
-                console.log(v)
+                // console.log(v)
                 if (isOnline[v]) {
                     isOnline[v].emit('online_user',id.myId)
                 }

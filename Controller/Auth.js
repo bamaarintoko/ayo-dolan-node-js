@@ -11,7 +11,7 @@ app.use(bodyParser.json()); // support json encoded bodies
 
 app.post('/login', upload.fields([]), (req, res) => {
     let user_name = req.body.username
-    let password = md5(md5(req.body.password).toString()).toString()
+    let password = req.body.password
     const params = {user_name, password}
     if (req.body.username < 1 || req.body.password.length < 1) {
         let val = [];
