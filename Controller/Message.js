@@ -12,10 +12,15 @@ app.use(bodyParser.json()); // support json encoded bodies
 app.post('/get_message', upload.fields([]), (req, res) => {
     let user_id   = req.body.user_id
     message.get_messages(user_id).then((response)=>{
-        res.json(response)
+        if (response.length > 0){
+            res.json({status:true, result:response, message : "contact available"})
+        } else {
+            res.json({status:false, result:response, message : "contact not available"})
+        }
+        // res.json(response)
     })
 
-    console.log(user_id)
+    // console.log(user_id)
 })
 
 module.exports = app

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2625d2-5ca3-4e4b-9b30-a425741b1f0c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Controller/Message.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Model/ModelMessage.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Controller/index.js" afterPath="$PROJECT_DIR$/Controller/index.js" />
+      <change beforePath="$PROJECT_DIR$/Controller/Message.js" afterPath="$PROJECT_DIR$/Controller/Message.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/Socket/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-17">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -46,27 +43,27 @@
         <entry file="file://$PROJECT_DIR$/Model/Login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="13" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Message.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controller/Message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelMessage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModelMessage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/ModelMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -106,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/Controller/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -152,8 +149,8 @@
         <option value="$PROJECT_DIR$/Controller/Auth.js" />
         <option value="$PROJECT_DIR$/Socket/server.js" />
         <option value="$PROJECT_DIR$/Controller/index.js" />
-        <option value="$PROJECT_DIR$/Controller/Message.js" />
         <option value="$PROJECT_DIR$/Model/ModelMessage.js" />
+        <option value="$PROJECT_DIR$/Controller/Message.js" />
       </list>
     </option>
   </component>
@@ -314,15 +311,16 @@
       <workItem from="1521539621992" duration="2242000" />
       <workItem from="1521795888127" duration="2341000" />
       <workItem from="1521982942673" duration="2488000" />
-      <workItem from="1522929729709" duration="1507000" />
+      <workItem from="1522929729709" duration="3033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90291000" />
+    <option name="totallyTimeSpent" value="91817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.43103448" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -698,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/Socket/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -722,7 +720,7 @@
     <entry file="file://$PROJECT_DIR$/Model/Login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="13" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -730,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/Controller/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -751,18 +749,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Message.js">
+    <entry file="file://$PROJECT_DIR$/Model/ModelMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/ModelMessage.js">
+    <entry file="file://$PROJECT_DIR$/Controller/Message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
