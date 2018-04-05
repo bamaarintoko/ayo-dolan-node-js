@@ -51,29 +51,18 @@ io.on('connection', (client) => {
     client.on('init', (userId) => {
         sockets[userId.senderId] = client;
         client.on('message', (message) => {
+            client.emit('message', message);
             if (sockets[userId.receiverId]) {
                 sockets[userId.receiverId].emit('message', message);
-                console.log("sockets--->",sockets[userId.receiverId])
+
             }
-            /* handler for creating message */
         });
     });
     client.on('online', (id) => {
-        // meOnline[id.myId] = client;
-        // id.friendId.map((v,k)=>{
             isOnline[id.myId] = client;
-            // isOnline[id.myId].emit('online_user','a')
             console.log(id.myId+"---> online")
-        // })
-        // isOnline[id.myId] = client
-        // console.log("lllllllllllllll",isOnline)
-        // console.log('user-->',id,' is online')
         client.on('online_user',(id_)=> {
             console.log("haloooo")
-            // if (isOnline[id_.friendId]) {
-            //     isOnline[id_.friendId].emit('online_user','a')
-            // }
-            //     console.log(id_.friendId)
             id_.friendId.map((v,k)=>{
                 // console.log(v)
                 if (isOnline[v]) {
@@ -81,25 +70,6 @@ io.on('connection', (client) => {
                 }
             })
         })
-        //
-        //     // console.log("asu",id_.friendId)
-        //     // console.log("-->",isOnline)
-        //     if (isOnline['1903']) {
-        //         isOnline['1903'].emit('online_user','a')
-        //     }
-        //     id.friendId.map((v,k)=>{
-        //         // isOnline[v].emit('online_user',v)
-        //         // isOnline[v] = client;
-        //         // console.log(typeof v)
-        //     })
-        //     // isOnline.map((v,k)=>
-        //     // {
-        //     //     console.log("-->",v)
-        //     // })
-        //     //     isOnline['1903'].emit('online_user','a')
-        //         // console.log("-------->",isOnline)
-        //         // sockets[userId.receiverId].emit('message', message);
-        // })
     });
 
     client.on('tes', (interval) => {

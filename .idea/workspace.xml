@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2625d2-5ca3-4e4b-9b30-a425741b1f0c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Controller/Message.js" afterPath="$PROJECT_DIR$/Controller/Message.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Socket/server.js" afterPath="$PROJECT_DIR$/Socket/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Socket/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="680">
+              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -49,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Message.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/Message.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -131,9 +132,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>port</find>
-      <find>message_</find>
       <find>online</find>
       <find>server</find>
+      <find>message_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,10 +148,10 @@
         <option value="$PROJECT_DIR$/Model/Login.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Controller/Auth.js" />
-        <option value="$PROJECT_DIR$/Socket/server.js" />
         <option value="$PROJECT_DIR$/Controller/index.js" />
         <option value="$PROJECT_DIR$/Model/ModelMessage.js" />
         <option value="$PROJECT_DIR$/Controller/Message.js" />
+        <option value="$PROJECT_DIR$/Socket/server.js" />
       </list>
     </option>
   </component>
@@ -311,16 +312,15 @@
       <workItem from="1521539621992" duration="2242000" />
       <workItem from="1521795888127" duration="2341000" />
       <workItem from="1521982942673" duration="2488000" />
-      <workItem from="1522929729709" duration="3033000" />
+      <workItem from="1522929729709" duration="7208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91817000" />
+    <option name="totallyTimeSpent" value="95992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.43103448" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -693,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Connection/knex.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -761,6 +753,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
           <folding />
         </state>
       </provider>
