@@ -44,27 +44,26 @@ io.on('connection', (client) => {
         }, interval);
     });
     client.on('room', function(room_) {
-        // console.log(room_)
         room = room_
         client.join(room_);
     });
     client.on('init', (userId) => {
         sockets[userId.senderId] = client;
         client.on('message', (message) => {
-            client.emit('message', message);
             if (sockets[userId.receiverId]) {
                 sockets[userId.receiverId].emit('message', message);
-
             }
         });
+        client.on('dc',(id)=>{
+            delete sockets[id];
+        })
     });
     client.on('online', (id) => {
             isOnline[id.myId] = client;
-            console.log(id.myId+"---> online")
+            // console.log(id.myId+"---> online")
         client.on('online_user',(id_)=> {
-            console.log("haloooo")
+            // console.log("haloooo")
             id_.friendId.map((v,k)=>{
-                // console.log(v)
                 if (isOnline[v]) {
                     isOnline[v].emit('online_user',id.myId)
                 }
