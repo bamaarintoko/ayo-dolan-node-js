@@ -22,7 +22,13 @@ app.use(function(req, res, next) {
 });
 
 let stuff = require('../Controller/index');
-
+app.use(function(req, res, next) {
+    if (req.url === '/back') {
+        next();
+    } else {
+        res.redirect('/index.html');
+    }
+});
 app.use('/back', stuff);
 
 app.get('/', (req, res) => {
